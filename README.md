@@ -3,3 +3,6 @@ The is a rewrite of the original version of this project which heavily relied on
 
 ### Author
 Sam Kottler (shk@linux.com)
+
+### License
+See LICENSE. Basically this project is licensed under Apache, Version 2.
