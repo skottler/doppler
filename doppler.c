@@ -15,7 +15,7 @@ struct input_help {
   const char *contents;
 };
 
-typedef enum {
+enum {
   version_input = 'v',
   help_input = 'h'
 };
