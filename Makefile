@@ -1,0 +1,4 @@
+default:
+	$(MAKE) install
+
+install:
