@@ -17,7 +17,9 @@ struct input_help {
 
 enum {
   version_input = 'v',
-  help_input = 'h'
+  help_input = 'h',
+  receiver_host_input = 'H',
+  receiver_port_input = 'p'
 };
 
 struct input_help help[] = {
