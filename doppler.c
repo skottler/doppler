@@ -4,7 +4,7 @@
 #include <string.h>
 
 void usage(const char *use) {
-  printf ("Usage: doppler <command>");
+  printf ("Usage: doppler <command>\n");
 }
 
 
@@ -28,6 +28,8 @@ struct input_help help[] = {
 int main(int argc, char **argv) {
   struct doppler_conf;
   struct options *getopt_options = NULL;
+
+  usage(*argv);
 
   return 0;
 }
